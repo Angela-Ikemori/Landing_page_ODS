@@ -138,52 +138,15 @@ nav {
 
 .colunas>p {
     text-align: left;
-} */
+} 
 
-
-/* CSS FORMULÁRIO */
-
-.bodyCss{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    text-align: center;
-    min-height: 100vp;
-    margin: 0;
+.colunas>ul>li>a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
 }
 
-form{
-    padding: 15px;
-    width: 350px;
-    margin: 0 auto;
-    background-color: #8c8c8c5d;
-    border-radius: 5px;
-    box-shadow: 3px 3px 10px #989898b3;
+.colunas >ul{
+    list-style: none;
 }
-
-fieldset{
-    border: none;
-}
-
-
-label,
-input{
-    display: block;
-    width: 90%;
-    box-sizing: border-box;
-    margin: 15px 15px;
-    
-}
-
-label{
-    margin-bottom: .25em;
-}
-
-input{
-    padding: .75em;
-    border-radius: 5px;
-    margin-bottom: 1.5em;
-    border: 1px solid #bbb;
-
-    /* continuar aula e formatar e titulo do formulário */
 
