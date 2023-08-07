@@ -1,6 +1,6 @@
 # Landing_page_ODS
-Criar uma landing page contemplando um ou mais temas da ODS.
 Com o objetivo de trazer conteúdo relacionado aos Objetivos de desenvolvimento sustentável - agenda 2030. O site tem o propósito de conscientizar pessoas.
+Concientização está contido no ODS 4 Educação de Qualidade.
 O MVP do site traz uma proposta simples, apresentar uma landing page.
 Evolução:
 * Responsividade
