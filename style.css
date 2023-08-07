@@ -1,0 +1,189 @@
+* {
+    /* reset de todas as configurações */
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+    /* Padding cria espaço extra dentro de um elemento, enquanto margin cria espaço extra ao redor de um elemento.*/
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: auto;
+}
+
+.homeBloco {
+    background-color: #efefef;
+    padding: 15px 50px 15px 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #8C8C8C;
+}
+
+p, ul li{
+    margin: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: justify;
+    color: #8C8C8C; 
+   
+}
+
+h2 {
+    margin: 15px;
+    color: #000000;
+    padding-top: 35px;
+    
+}
+#padding{
+    padding-left: 50px;
+}
+
+/* Configuração do Menu "Navbar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #90C1A5;
+    /* position: fixed;  Retornar para ajustar o menu de navegação como fixo como ocorre no Fale Conosco */
+    background-color: #fff;
+    width: 100%;
+
+}
+
+.borda {
+    border-bottom: 5px solid black;
+    border-style: solid #000000;
+    border-width: 1px;
+    border-color: #90C1A5;
+
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+    
+
+
+}
+
+.nav-itens>li>a {
+    padding-left: 25px;
+    text-decoration: none;
+    /* text-transform: uppercase; PESQUISAR*/
+}
+
+
+.container {
+    position: relative;
+    /* padding: 15px; */
+    max-width: 95%;
+    /* largura máxima  */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/* A overflow-x propriedade especifica se deve cortar o conteúdo, adicionar uma barra de rolagem ou exibir o conteúdo de estouro de um elemento de nível de bloco, quando ele transborda nas bordas esquerda e direita. */
+.gallery-ods {
+    overflow-x: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+    padding: 25px 25px;
+    /*A gap propriedade define o tamanho do espaço entre as linhas e entre as colunas no layout flexbox, grid ou multi-coluna*/
+
+}
+
+
+.video {
+    padding: 15px;
+
+}
+
+
+.organizar {
+    margin: 30px;
+}
+
+#rodape {
+
+    background-color: rgba(200, 188, 78, 0.303);
+    /* padding: 10%; */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+#rodape p{
+    color: #000000;
+    text-align: center;
+}
+
+.colunas {
+    width: 33%;
+    text-align: center;
+}
+
+.colunas>p {
+    text-align: left;
+} */
+
+
+/* CSS FORMULÁRIO */
+
+.bodyCss{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    min-height: 100vp;
+    margin: 0;
+}
+
+form{
+    padding: 15px;
+    width: 350px;
+    margin: 0 auto;
+    background-color: #8c8c8c5d;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #989898b3;
+}
+
+fieldset{
+    border: none;
+}
+
+
+label,
+input{
+    display: block;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 15px 15px;
+    
+}
+
+label{
+    margin-bottom: .25em;
+}
+
+input{
+    padding: .75em;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+    border: 1px solid #bbb;
+
+    /* continuar aula e formatar e titulo do formulário */
+

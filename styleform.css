@@ -1,0 +1,148 @@
+* {
+    /* reset de todas as configurações */
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+    /*Padding cria espaço extra dentro de um elemento, enquanto margin cria espaço extra ao redor de um elemento.*/
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    min-height: 100vp;
+    margin: 0;
+
+    
+}
+
+p {
+    margin: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.8;
+    text-align: left;
+    color: #8C8C8C; 
+   
+}
+h1{
+     color: #8c8c8ca3;
+     font-size: 28px;
+padding:  10px;
+text-align: left;
+padding-top: 0;
+    
+}
+h2 {
+    margin: 15px;
+    color: #000000;
+}
+
+/* Configuração do Menu "Navbar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #90C1A5;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+
+}
+
+.borda {
+    border-bottom: 5px solid black;
+    border-style: solid #000000;
+    border-width: 1px;
+    border-color: #90C1A5;
+    /* margin-bottom: 15px; */
+
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+    
+
+
+}
+
+.nav-itens>li>a {
+    padding-left: 25px;
+    text-decoration: none;
+    /* text-transform: uppercase; PESQUISAR*/
+}
+
+
+/* FORMULÁRIO */
+
+section{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+form{
+    padding: 15px;
+    width: 350px;
+    margin: 0 auto;
+    /* background-color: #8c8c8c5d; */
+    /* border-radius: 5px; */
+    /* box-shadow: 3px 3px 10px #989898b3; */
+}
+
+fieldset{
+    border: none;
+    color: #8c8c8ca3;
+    text-align: left;
+}
+
+
+label,
+input{
+    display: block;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 15px 15px;
+    
+}
+
+label{
+    margin-bottom: .25em;
+}
+
+input{
+    padding: .75em;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+    border: 1px solid #bbb;
+
+    /* continuar aula e formatar e titulo do formulário */
+
+#rodape {
+
+    background-color: rgba(200, 188, 78, 0.303);
+    /* padding: 10%; */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+#rodape p{
+    color: #000000;
+    text-align: center;
+}
+
+.colunas {
+    width: 33%;
+    text-align: center;
+}
+
+.colunas>p {
+    text-align: left;
+}
+
